@@ -1,6 +1,7 @@
 # =============================================================================
 # PATIKA-DEV PROJECT-1, PYTHON BASICS
 # S.CESUR
+# SPYDER IDE IS USED!
 # =============================================================================
 
 #1 - FLATTEN A GIVEN RANDOM LIST 
@@ -30,4 +31,5 @@ def true_reverse(mylist):
 
 l = [[1, 2], [3, '4'], [5, 6, 7]] # any list can be replaced here!
 print(true_reverse(l))
+
 
