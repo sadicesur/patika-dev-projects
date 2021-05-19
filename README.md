@@ -3,7 +3,8 @@
 
 ## [Python Basics](https://www.patika.dev/egitimler/veri-bilimi-patikasi/python-temel)
 
-* Objective is to flatten a given arbitrary list and reverse another one.
+* Objective is to flatten a given arbitrary list and reverse another arbitrary list.
+* python-basics-1.py is the project file.
 
 
 
