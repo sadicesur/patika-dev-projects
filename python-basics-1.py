@@ -19,9 +19,9 @@ print(flatten(input_list))
 
 #2 - REVERSE A GIVEN RANDOM LIST
 
-def true_reverse(mylist):
+def true_reverse(listz):
     result = []
-    for e in mylist:
+    for e in listz:
         if isinstance(e, list):
             result.append(true_reverse(e))
         else:
