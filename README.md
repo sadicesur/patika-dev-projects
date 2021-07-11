@@ -12,7 +12,7 @@
 * Objective is to make a regression model to predict the heating/cooling loads of buildings with specific features
 
 ## [SQL - Assignments](https://app.patika.dev/egitimler/veri-bilimi-patikasi/sql/)
-* Objective is to form a SQL script that runs in the instructions in the assignment page.
+* Objective is to form a SQL scripts that runs in the instructions in the assignments page.
 
 
 
