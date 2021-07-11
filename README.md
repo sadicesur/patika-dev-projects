@@ -1,5 +1,6 @@
 # [PATIKA-DEV PROJECTS](https://www.patika.dev/)
 * Projects completed during patika.dev data science / machine learning training 
+* Assignments done in VitrA Data Science Bootcamp
 
 ## [Python Basics](https://www.patika.dev/egitimler/veri-bilimi-patikasi/python-temel)
 
@@ -10,7 +11,8 @@
 
 * Objective is to make a regression model to predict the heating/cooling loads of buildings with specific features
 
-
+## [SQL - Assignment #1](https://app.patika.dev/egitimler/veri-bilimi-patikasi/sql/Odev1)
+* Objective is to form a SQL script that runs in the instructions in the assignment page.
 
 
 
