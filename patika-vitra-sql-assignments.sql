@@ -28,3 +28,16 @@ SELECT country FROM country WHERE country LIKE 'A%a';
 SELECT country FROM country WHERE LENGTH(country) > 6 and country LIKE '%n';
 -- Question 3
 SELECT title FROM film WHERE title ILIKE '%t%t%t%t%';
+
+-- SQL ASSIGNMENT #4
+
+-- Question 1
+SELECT DISTINCT replacement_cost from film;
+-- Question 2
+SELECT COUNT (DISTINCT replacement_cost) from film;
+-- Question 3
+SELECT COUNT (*) FROM film WHERE title LIKE 'T%' AND rating = 'G';
+-- Question 4
+SELECT COUNT (*) FROM country WHERE LENGTH(country)  = 5;
+-- Question 5
+SELECT COUNT (*) FROM city WHERE city ILIKE '%R'
