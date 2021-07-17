@@ -136,8 +136,16 @@ INTERSECT ALL
 EXCEPT ALL
 ( SELECT first_name FROM customer );
 
+-- SQL ASSIGNMENT #12
 
-
+-- Question 1
+SELECT COUNT(*) FROM film WHERE length > (SELECT AVG(length) FROM film);
+-- Question 2
+SELECT COUNT(*) FROM film WHERE rental_rate = (SELECT MAX(rental_rate) FROM film);
+-- Question 3
+SELECT title,rental_rate,replacement_cost FROM film WHERE (rental_rate = (SELECT MIN(rental_rate) FROM film)) AND (replacement_cost = (SELECT MIN(replacement_cost) FROM film));
+-- Question 4
+SELECT first_name,last_name, SUM(amount) FROM customer JOIN payment ON customer.customer_id = payment.customer_id GROUP BY first_name,last_name ORDER BY SUM(amount) DESC;
 
 
 
