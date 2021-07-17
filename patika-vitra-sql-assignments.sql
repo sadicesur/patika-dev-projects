@@ -111,31 +111,30 @@ SELECT first_name,last_name,payment_id FROM customer c RIGHT JOIN payment p ON (
 -- Question 3
 SELECT first_name,last_name,rental_id FROM customer c FULL JOIN rental r ON( c.customer_id = r.customer_id );
 
-
 -- SQL ASSIGNMENT #11
 
 -- Question 1
 ( SELECT first_name FROM actor )
 UNION
-( SELECT first_name FROM customer )
+( SELECT first_name FROM customer );
 -- Question 2
 ( SELECT first_name FROM actor )
 INTERSECT
-( SELECT first_name FROM customer )
+( SELECT first_name FROM customer );
 -- Question 3
 ( SELECT first_name FROM actor )
 EXCEPT
-( SELECT first_name FROM customer )
+( SELECT first_name FROM customer );
 -- Question 4
 ( SELECT first_name FROM actor )
 UNION ALL
-( SELECT first_name FROM customer )
+( SELECT first_name FROM customer );
 ( SELECT first_name FROM actor )
 INTERSECT ALL
-( SELECT first_name FROM customer )
+( SELECT first_name FROM customer );
 ( SELECT first_name FROM actor )
 EXCEPT ALL
-( SELECT first_name FROM customer )
+( SELECT first_name FROM customer );
 
 
 
